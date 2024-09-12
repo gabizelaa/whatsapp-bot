@@ -29,19 +29,19 @@ class TrafficLight:
 
     def red_light(self):
         self.state = 'Red'
-        print("🔴 Semáforo Vermelho - Pare")
+        print("Semáforo Vermelho 🔴")
         self.update_light(self.state)
         time.sleep(5)
 
     def yellow_light(self):
         self.state = 'Yellow'
-        print("🟡 Semáforo Amarelo - Atenção")
+        print("Semáforo Amarelo 🟡")
         self.update_light(self.state)
         time.sleep(2)
 
     def green_light(self):
         self.state = 'Green'
-        print("🟢 Semáforo Verde - Siga")
+        print("Semáforo Verde 🟢")
         self.update_light(self.state)
         time.sleep(5)
 
