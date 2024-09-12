@@ -52,8 +52,6 @@ class TrafficLight:
             self.green_light()
             self.yellow_light()
 
-# Inicializa o semáforo com um ID específico
 traffic_light = TrafficLight(id=1)
 
-# Inicia a simulação de tráfego
 traffic_light.start_traffic()
