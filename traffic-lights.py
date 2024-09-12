@@ -31,19 +31,19 @@ class TrafficLight:
         self.state = 'Red'
         print("Semáforo Vermelho 🔴")
         self.update_light(self.state)
-        time.sleep(5)
+        time.sleep(5) #Cor vermelha fica por 5s
 
     def yellow_light(self):
         self.state = 'Yellow'
         print("Semáforo Amarelo 🟡")
         self.update_light(self.state)
-        time.sleep(2)
+        time.sleep(2) #Cor amarela fica por 2s
 
     def green_light(self):
         self.state = 'Green'
         print("Semáforo Verde 🟢")
         self.update_light(self.state)
-        time.sleep(5)
+        time.sleep(5) #Cor verde fica por 5s
 
     def start_traffic(self):
         while True:
